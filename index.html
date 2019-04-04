@@ -1,23 +1,105 @@
 <html>
     <head>
         <title>Navegadorcito - Ficha Personal: Ariel Andres Tapia Bernal</title>
+        <link rel="stylesheet" type="text/css" href="css/ficha_personal.css">
     </head>
     <body>
         <h1>Ficha Personal</h1>
-        <IMG SRC="https://lh3.googleusercontent.com/a-/AAuE7mAS2D5poYjzNOPg2wtJv1huVRWaYb50AFIWPgX0HA=s96" width=150 height=150 ALT="AQUI VA UNA IMAGEN">
+        <IMG SRC="https://i.imgur.com/sBNyT6i.gif" width=150 height=150 ALT="AQUI VA UNA IMAGEN">
         <ul>
             <li>Nombre completo: Ariel Andrés Tapia Bernal</li>
             <li>Carrera: Ingeniería civil informática</li>
             <li>Asignaturas actuales:</li>
                 <ul>
-                <li>ICI4240 - Ingeniería Web</li>
-                <li>ICI4241 - Ingeniería de software</li>
+                <li><a href="ficha_ICI4240.html">ICI4240 - Ingeniería Web</a></li>
+                <li><a href="ficha_ICI4241.html">ICI4241 - Ingeniería de software</a></li>
                 <li>ICI4242 - Automatas y compiladores</li>
                 <li>ICA4160 - Economía</li>
-                <li>ING9001 - Inglés 1</li>
+                <li><a href="ficha_ING9001.html">ING9001 - Inglés 1</a></li>
                 </ul>
+            <li><a href="asignaturas_cursadas.html">Asignaturas cursadas</a></li>
         </ul>
-        <hr size="5px" color="black"/>
+        <br/>
+        <br/>
+        <hr size="4px" color="black"/>
         <h1>Horario</h1>
+        <table id="horario" border = "2" bordercolor = "black" align="center">
+            <tr class=impar>
+                <th>Clave</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+            </tr>
+            <tr class=par>
+                <td>1-2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class=impar>
+                <td>3-4</td>
+                <td>ICI4242</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class=par>
+              <td>5-6</td>
+              <td>ICI4242</td>
+              <td><a href="ficha_ICI4241.html">ICI4241</a></td>
+              <td></td>
+              <td></td>
+              <td>ICI4242</td>
+              <td></td>
+            </tr>
+            <tr class=impar>
+                <td>7-8</td>
+                <td><a href="ficha_ICI4241.html">ICI4241</a></td>
+                <td><a href="ficha_ING9001.html">ING9001</a></td>
+                <td><a href="ficha_ICI4240.html">ICI4240</a></td>
+                <td></td>
+                <td><a href="ficha_ING9001.html">ING9001</a></td>
+                <td></td>
+            </tr>
+            <tr class=par>
+                <td>9-10</td>
+                <td></td>
+                <td><a href="ficha_ICI4240.html">ICI4240</a></td>
+                <td>ICA4160</td>
+                <td><a href="ficha_ICI4241.html">ICI4241</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class=impar>
+                <td>11-12</td>
+                <td></td>
+                <td>ICA4160</td>
+                <td></td>
+                <td><a href="ficha_ICI4241.html">ICI4241</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class=par>
+                <td>13-14</td>
+                <td><a href="ficha_ICI4240.html">ICI4240</a></td>
+                <td><a href="ficha_ICI4240.html">ICI4240</a></td>
+                <td>ICA4160</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <button class="centrado" onclick="window.location='calendario_actividades.html'">Calendario Completo de Actividades</button>
+
     </body>
 </html>

@@ -1,0 +1,42 @@
+body{
+    background:rgb(184, 182, 182);
+}
+h2,h3,h4,h5,h6{
+    color:rgb(182, 182, 26);
+}
+h1{
+    text-align: center;
+    color:rgb(182, 182, 26);
+    widows: 1000px;
+    height: 70px;
+    background:rgb(34, 116, 192);
+    font-size:50px;
+}
+h2{
+    widows: 1000px;
+    height: 30px;
+    background:rgb(34, 116, 192);
+}
+h3{
+    widows: 1000px;
+    background:rgb(34, 116, 192);
+}
+
+.centrado{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr td{ 
+    background: white;
+}
+
+ul{
+    list-style-type: square;
+}
+div{
+    background: white;
+}
+  
+  
