@@ -8,27 +8,27 @@ Status Code: Es un codigo de estado http que define de forma abreviada la respue
 
 Metodos de peticion http:
 
-    GET: El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+    GET: Solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
-    POST: El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+    POST: Este método se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
 
-    HEAD: El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+    HEAD: Pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
 
-    OPTIONS: El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+    OPTIONS: Este método se utiliza para describir las opciones de comunicación para el recurso de destino.
 
-    PUT: El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+    PUT: Reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
 
-    DELETE: El método DELETE borra un recurso en específico.
+    DELETE: Se utiliza para borrar un recurso en específico.
 
 
 
-Header: Las cabeceras HTTP permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta.
+Header: las Headers HTTP permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta.
 
 Headers:
 
-    Accept: Informa al servidor sobre los diferentes tipos de datos que pueden enviarse de vuelta. Es de tipo MIME.
+    Accept:Este header informa al servidor sobre los diferentes tipos de datos que pueden enviarse de vuelta.
 
-    Accept-Charse: Informa al servidor sobre el set de caracteres que el cliente puede entender.
+    Accept-Charse: Este header indica al servidor sobre el set de caracteres que el cliente puede entender.
 
     Accept-Encoding: Informa al servidor sobre el algoritmo de codificación, habitualmente un algoritmo de compresión, que puede utilizarse sobre el recurso que se envíe de vuelta en la respuesta.
 
@@ -40,7 +40,7 @@ Headers:
 
     Set-Cookie: Envia cookies desde el servidor al usuario.
 
-    Host: Especifica el nombre de dominio del servidor (para alojamiento virtual), y (opcionalmente) el número de puerto TCP en el que está escuchando el servidor.
+    Host: Indica el nombre de dominio del servidor, y opcionalmente el número de puerto TCP en el que está alojado el servidor.
 
     Origin: Indica el punto de origen de una petición de recogida.
 
